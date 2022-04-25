@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864532911465",
+    "project_id": "delvers-n-dice",
+    "storage_bucket": "delvers-n-dice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864532911465:android:c3edf0ba16658e21ded9f8",
+        "android_client_info": {
+          "package_name": "com.example.delvers_n_dice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864532911465-2lj6h0q1l75urq246virarr58n5femhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjOJy3zcXoP3yet2O6zCtxRhWlvaB-zzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864532911465-2lj6h0q1l75urq246virarr58n5femhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

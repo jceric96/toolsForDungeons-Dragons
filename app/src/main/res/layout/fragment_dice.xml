@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.views.fragments.DiceFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textViewSidesLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sidesLabel"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/editNumberSides"
+                app:layout_constraintEnd_toEndOf="@+id/editNumberSides"
+                app:layout_constraintStart_toStartOf="@+id/editNumberSides"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewModLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modifierLabel"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/editNumberMod"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/editNumberMod"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewMulLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multiplierLabel"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/editNumberMul"
+                app:layout_constraintEnd_toEndOf="@+id/editNumberMul"
+                app:layout_constraintStart_toStartOf="@+id/editNumberMul"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editNumberMul"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/multiplierLabel"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editNumberSides"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:ems="10"
+                android:hint="@string/sidesLabel"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/editNumberMul" />
+
+            <EditText
+                android:id="@+id/editNumberMod"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:ems="10"
+                android:hint="@string/modifierLabel"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/editNumberSides" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

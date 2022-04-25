@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">delvers-n-dice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multiplierLabel">Multiplier</string>
+    <string name="sidesLabel">Sides</string>
+    <string name="modifierLabel">Modifier</string>
+    <string name="save_dice_label">Choose a name for your dice</string>
+</resources>
